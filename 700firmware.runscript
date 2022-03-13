@@ -1,0 +1,18 @@
+print "Soft-reset the controller"
+send "\1\3\0\10\364"
+
+print "Waiting for the controller to recover. You may see some junk"
+print "characters printed to the screen. This is normal."
+sleep 10
+
+print "Dropping controller to bootloader."
+send "\1\3\0\47\333"
+
+print "This should be followed by 'Gecko Bootloader ...' and a menu."
+print "Pick #3, then use xmodem to upload your firmware gbl when it "
+print "starts printing CCCC.... (press Ctrl-a then s, then pick with "
+print "<spacebar> and press <enter> to upload)."
+print ""
+print "When complete, pick #2 (run). You'll see the sequence of junk "
+print "characters again -- that means it's working! Ctrl-A q to exit."
+sleep 1
