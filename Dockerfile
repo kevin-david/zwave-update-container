@@ -13,3 +13,4 @@ RUN wget -O /tmp/ZW_SerialAPI_Controller_7_17_2_406_ZGM130S_REGION_US.gbl https:
 ENTRYPOINT [ "bash" ]
 
 # Instructions: https://github.com/kpine/zwave-js-server-docker/wiki/700-series-Controller-Firmware-Updates-(Linux)
+# Manufacturer instructions: https://www.support.getzooz.com/kb/article/931-how-to-perform-an-ota-firmware-update-on-your-zst10-700-z-wave-stick/
