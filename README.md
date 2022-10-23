@@ -15,3 +15,6 @@ docker run --rm --device /dev/ttyUSB1:/dev/ttyUSB1 -e FIRMWARE_URL=https://raw.g
 
 Credit: 
 - https://github.com/git-developer/ti-cc-tool/ (which doesn't work properly downloading files on HAOS) 
+
+## Debugging
+https://github.com/kpine/zwave-js-server-docker/wiki/USB-Reset
