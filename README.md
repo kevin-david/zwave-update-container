@@ -1,7 +1,8 @@
 # zwave-update-container
 Container used to update a 700-series Z-Wave controller's firmware
 
-![Docker Pulls](https://img.shields.io/docker/pulls/kevinpdavid/zwave-update-container?link=https%3A%2F%2Fhub.docker.com%2Frepository%2Fdocker%2Fkevinpdavid%2Fzwave-update-container%2Ftags)
+<a href="https://hub.docker.com/repository/docker/kevinpdavid/zwave-update-container/tags"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/kevinpdavid/zwave-update-container"></a>
+
 
 Potentially used in conjunction with the [Portainer add-on for HAOS](https://github.com/alexbelgium/hassio-addons/tree/master/portainer) to update a remote or hard-to-reach device.
 
