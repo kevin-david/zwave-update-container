@@ -1,5 +1,5 @@
 # syntax = docker/dockerfile:1.0-experimental
-FROM ghcr.io/hassio-addons/base:stable as zwave-update-container
+FROM ghcr.io/hassio-addons/ubuntu-base:stable as zwave-update-container
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update
