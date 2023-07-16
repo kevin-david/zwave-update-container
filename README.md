@@ -10,10 +10,10 @@ Inspired by https://github.com/kpine/zwave-js-server-docker/wiki/700-series-Cont
 
 ## ZigBee Update
 
-Run:
+Run as root:
 
 ```
-docker run --rm --device /dev/ttyUSB1:/dev/ttyUSB1 -e FIRMWARE_URL=https://raw.githubusercontent.com/kevin-david/zwave-update-container/main/CC1352P2_CC2652P_launchpad_coordinator_20220928.hex ckware/ti-cc-tool -ewv -p /dev/ttyUSB1 --bootloader-sonoff-usb
+docker run --rm --device /dev/ttyUSB1:/dev/ttyUSB1 -e FIRMWARE_URL=https://raw.githubusercontent.com/kevin-david/zwave-update-container/main/CC1352P2_CC2652P_launchpad_coordinator_20230507.hex ckware/ti-cc-tool -ewv -p /dev/ttyUSB1 --bootloader-sonoff-usb
 ```
 
 Credit: 
