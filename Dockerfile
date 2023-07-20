@@ -4,7 +4,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update
 RUN echo "APT::Get::Assume-Yes \"true\";" > /etc/apt/apt.conf.d/90assumeyes
-RUN apt-get install -y minicom lrzsz wget nano udev
+RUN apt-get install -y minicom lrzsz wget nano udev usbutils
 
 # From https://github.com/kpine/zwave-js-server-docker/issues/14
 COPY ./700firmware.runscript /tmp/
